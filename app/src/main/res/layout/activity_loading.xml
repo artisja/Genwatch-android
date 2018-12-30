@@ -4,14 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
-    tools:context="com.example.artisja.genwatch.MainActivity">
+    tools:context="com.example.artisja.genwatch.LoadingActivity">
 
-    <TextView
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="GenWatch"
-        android:textSize="30dp"
-        android:gravity="center"
-        android:textColor="@color/lightSecondary"/>
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/genguard_app_logo_1024"/>
+
 </LinearLayout>

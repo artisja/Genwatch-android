@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#21c2f8</color>
+    <color name="colorPrimaryDark">#2c3e50</color>
+    <color name="colorAccent">#21c2f8</color>
+    <color name="dark">#202020</color>
+    <color name="darkSecondary">#bdc3c7</color>
+    <color name="lightSecondary">#f3f7f8</color>
+    <color name="currentDayColor">#ffae42</color>
+    <color name="white">#ffffff</color>
+    <color name="errorColor">#E94F64</color>
+    <color name="warningColor">#E5C454</color>
+    <color name="successColor">#52D273</color>
+    <color name="infoColor">#486CDE</color>
 </resources>
