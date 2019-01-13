@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.artisja.genwatch.LoginActivity">
+
+   <View
+       android:layout_width="0dp"
+       android:layout_height="0dp"
+       android:layout_weight="4"
+       android:visibility="invisible"/>
+
+    <ImageView android:id="@+id/profile_picture"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"/>
+
+    <EditText android:id="@+id/username_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:maxLength="20"
+        android:textColorHint="@color/white"
+        android:hint="username"
+        android:gravity="center"
+        android:layout_weight="2" />
+
+    <EditText android:id="@+id/password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:maxLength="20"
+        android:hint="password"
+        android:textColorHint="@color/white"
+        android:gravity="center"
+        android:layout_weight="2" />
+
+    <Button android:id="@+id/login_button"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:text="Login"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textAlignment="center"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:visibility="invisible"/>
+</LinearLayout>
