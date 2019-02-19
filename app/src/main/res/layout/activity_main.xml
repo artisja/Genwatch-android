@@ -4,14 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@color/colorPrimaryDark"
     tools:context="com.example.artisja.genwatch.MainActivity">
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="GenWatch"
+        android:text="Hello Justin,"
         android:textSize="30dp"
         android:gravity="center"
+        android:layout_weight="1"
         android:textColor="@color/lightSecondary"/>
+
+    <TextView
+        android:id="@+id/clock_in_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Test"
+        android:textSize="30dp"
+        android:textColor="@color/lightSecondary"
+        android:layout_weight="1"
+        android:textStyle="bold" />
 </LinearLayout>
